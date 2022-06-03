@@ -26,7 +26,7 @@ class  mi7{
 
 
 void mi7::input(){
-    cout << "\t\t\t\tU-ANIMAL\n\n";
+    cout << "\t\t\t\tBAPAKKAU ANIMAL\n\n";
     cout << "masukan banyak hewan ke database : ";
     cin >> n;
     cout << "\n";
@@ -65,13 +65,13 @@ cout << "\n\n";
 
     cout << "hasil nama hewan sesudah diurutkan : \n";
     for(int i=0;i<n;i++){
-        cout << "nama hewan = "<< nama[i] <<" \n";
+        cout << "nama hewan ke- "<< i+1 <<" = "<< nama[i] <<" \n";
     }
 
 
 cout << endl;
     // melacak lokasi nama ada di index berapa
-    cout << "pilih hewan : ";
+    cout << "pilih hewan (masukan angka): ";
     cin >> pil;
     cout << "hewan yang kamu pilih adalah : " << nama[pil-1] << endl;
     temporary =  nama[pil-1];
